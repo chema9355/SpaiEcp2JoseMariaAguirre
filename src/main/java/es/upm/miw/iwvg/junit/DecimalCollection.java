@@ -47,4 +47,11 @@ public class DecimalCollection {
         return lower;
     }
 
+    public double mult() {
+        double mult = 1;
+        for (double item : this.collection) {
+        	mult *= item;
+        }
+        return mult;
+    }
 }
