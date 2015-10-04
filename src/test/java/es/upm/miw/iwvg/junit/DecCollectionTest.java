@@ -37,6 +37,13 @@ public class DecCollectionTest {
 	      
 	    }
 	
-	 
+	 @Test
+	 public void testlower() {
+		  decimalCollection.add(5);
+		  decimalCollection.add(2);
+		  decimalCollection.add(3);
+	      assertEquals(2,decimalCollection.lower(),0);
+	      
+	    }
 	
 }
