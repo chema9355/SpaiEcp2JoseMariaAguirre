@@ -46,4 +46,25 @@ public class PointTest {
         assertEquals(3, pt.getZ());
     }
 
+    @Test
+    public void testSetX() {
+        assertEquals(2, pt.getX());
+        pt.setX(5);
+        assertEquals(5, pt.getX());
+    }
+
+    @Test
+    public void testSetY() {
+        assertEquals(3, pt.getY());
+        pt.setY(6);
+        assertEquals(6, pt.getY());
+    }
+
+    @Test
+    public void testSetZ() {
+        assertEquals(4, pt.getZ());
+        pt.setZ(7);
+        assertEquals(7, pt.getZ());
+    }
+
 }
