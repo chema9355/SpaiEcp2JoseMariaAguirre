@@ -57,5 +57,9 @@ public class Fraction {
     public boolean isEquivalent(Fraction fraction) {
         return ((fraction.numerator * this.denominator) == (fraction.denominator * this.numerator));
     }
+    
+    public boolean integerNumber() {
+    	return this.numerator % this.denominator == 0;
+    }
 
 }
