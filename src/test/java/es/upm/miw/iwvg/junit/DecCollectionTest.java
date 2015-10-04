@@ -46,4 +46,12 @@ public class DecCollectionTest {
 	      
 	    }
 	
+	 @Test
+	 public void testmult() {
+		  decimalCollection.add(5);
+		  decimalCollection.add(2);
+		  decimalCollection.add(3);
+	      assertEquals(30,decimalCollection.mult(),0);
+	      
+	    }
 }
