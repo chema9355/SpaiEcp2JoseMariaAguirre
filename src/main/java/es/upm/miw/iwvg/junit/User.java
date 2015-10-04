@@ -38,5 +38,9 @@ public class User {
     public String getFamilyName() {
         return this.familyName;
     }
+    
+    public String hello() {
+    	return "Hola " + this.name + " " + this.familyName + " tu numero identificatorio es " + this.number;
+    }
 
 }
