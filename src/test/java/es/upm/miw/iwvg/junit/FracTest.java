@@ -1,6 +1,8 @@
 package es.upm.miw.iwvg.junit;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -34,6 +36,15 @@ public class FracTest {
     @Test
     public void testIsEquivalent() {
         assertEquals(true, fraction.isEquivalent(new Fraction(2, 4)));
+    }
+    
+    @Test
+    public void testIsInteger() {
+    	Fraction integerFraction = new Fraction(40, 8);
+    	Fraction notIntegerFraction = new Fraction(20, 7);
+    	
+        assertTrue(integerFraction.integerNumber());
+        assertFalse(notIntegerFraction.integerNumber());
     }
 
 }
