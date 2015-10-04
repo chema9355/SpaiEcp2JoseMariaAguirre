@@ -37,6 +37,12 @@ public class UsTest {
 	 public void testFamily() {
 	      assertEquals("Perez", user.getFamilyName());   
 	    }
+	 
+	 @Test
+	 public void testHello() {
+		 User pepe = new User(2, "Pepe", "Pérez");
+		 assertEquals("Hola Pepe Pérez tu numero identificatorio es 2", pepe.hello());   
+	    }
 	
 
 }
