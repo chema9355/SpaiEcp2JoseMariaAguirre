@@ -15,7 +15,7 @@ public class UsTest {
 	
 	 @Test
 	 public void testFullName() {
-	      assertEquals("Juan Perez", user.fullName());   
+	      assertEquals("JUAN PEREZ", user.fullName());   
 	    }
 	 
 	 @Test
@@ -30,18 +30,18 @@ public class UsTest {
 	 
 	 @Test
 	 public void testName() {
-	      assertEquals("Juan", user.getName());   
+	      assertEquals("JUAN", user.getName());   
 	    }
 	 
 	 @Test
 	 public void testFamily() {
-	      assertEquals("Perez", user.getFamilyName());   
+	      assertEquals("PEREZ", user.getFamilyName());   
 	    }
 	 
 	 @Test
 	 public void testHello() {
 		 User pepe = new User(2, "Pepe", "Pérez");
-		 assertEquals("Hola Pepe Pérez tu numero identificatorio es 2", pepe.hello());   
+		 assertEquals("Hola PEPE PÉREZ tu numero identificatorio es 2", pepe.hello());   
 	    }
 	
 
