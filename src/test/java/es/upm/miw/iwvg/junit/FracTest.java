@@ -47,4 +47,9 @@ public class FracTest {
         assertFalse(notIntegerFraction.integerNumber());
     }
 
+    @Test
+	public void testIsPropia(){
+    	Fraction fraction = new Fraction(8, 40);
+		assertTrue(fraction.isPropia());
+	}
 }
